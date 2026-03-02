@@ -1,0 +1,51 @@
+.showCard1 img{
+width: 30%;
+
+}
+.showCard1{
+    display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+.showCard1 .nme{
+    font-weight: bold;
+}
+.showCard1 .prof{
+    color: var(--MyAqva);
+}
+.showCard1 .txt{
+    color: var(--MyBlack);
+    
+}
+.showCard2{
+    background: #F0F9FF !important;
+    padding-left: 20px;
+    padding-top: 10px;
+padding-bottom: 10px;
+    display: flex;
+align-items: start;
+justify-content: start;
+}
+.showCard2 img {
+    width: 10%;
+    height: 50px;
+
+}
+.showCard2 .prof{
+    color: #000;
+    text-align: start;
+}
+.showCard2 .txt{
+    color: var(--MyAqva);
+    text-align: start;
+    
+    
+}
+.showCard2 .nme{
+    font-weight: bold;
+    text-align: start;
+    padding-top: 10px;
+
+}

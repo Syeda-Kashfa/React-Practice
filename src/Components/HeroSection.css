@@ -1,0 +1,9 @@
+.bgClr{
+    background: #E5E7EB;
+}
+.imgCnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
