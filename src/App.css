@@ -1,3 +1,33 @@
+*{
+  box-sizing: border-box;  
+}
 .bgColor{
     background: #F9FAFB;
+}
+.bgCl {
+    background: #0EA5E9;
+    color: white;
+    padding: 20px;
+    border: none;
+    
+}
+.bgCl .card{
+    background: transparent;
+}
+.bgCl img{
+    width: 10%;
+    height: 40px;
+}
+.bgCl .nme{
+    color: white;
+}
+.bgCl .prof{
+    color: white;
+}
+.bgCl .txt{
+    color: white;
+}
+.bgClr{
+    display: flex;
+    justify-content: center;
 }
