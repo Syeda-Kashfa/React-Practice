@@ -2,7 +2,7 @@ import Header from "./Components/Header" ;
 import HeroSection from "./Components/HeroSection";
 import HeadingText from "./HeadingText";
 import CardsContent from "./Components/CardsContent";
-import CardsIcon from "./Components/CardsIcon";
+import CardsRating from "./Components/CardsRating";
 import Footer from "./Footer";
 import './App.css';
 import icon1 from './assets/icon1.png'
@@ -16,6 +16,7 @@ import IMAGE2 from './assets/img2.png'
 import IMAGE3 from './assets/img3.png';
 
 import './Components/CardsContent.css'
+
 
 
 
@@ -103,7 +104,6 @@ function App() {
       <Header/>
       <div className="bgClr"><HeroSection/></div>
        <HeadingText condition={false} Heading="Our Medical Services" Paragh="We offer comprehensive healthcare services to meet all your medical needs with" Paragh1="experienced professionals and modern equipment"/>
-       <CardsIcon/>
         <div className="container gap-5 ">
         <CardsContent condition={false}  data={data2}/></div>
       <div className="bgColor py-4 mt-3"><HeadingText condition={true}/>
@@ -112,6 +112,7 @@ function App() {
         <HeadingText condition={false} Heading="What Our Patients Say" Paragh="Read about the experiences of our satisfied patients."/>
          <div className="bgCl  container-fluid gap-5 ">
         <CardsContent condition={true}  data={data3}/></div>
+        <div className=" container d-flex justify-content-center"><CardsRating/></div>
        <div className="container-fluid"> <Footer/></div>
          
     </>

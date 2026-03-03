@@ -16,8 +16,8 @@ const Header = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="m-auto my-2 my-lg-0 "
-            style={{ maxHeight: '100px' }}
+            className="m-auto my-2 my-lg-0 text-center "
+            style={{ maxHeight: 'auto' }}
             navbarScroll
           >
             <Nav.Link href="#action1" id='homeClr'>Home</Nav.Link>
@@ -28,7 +28,7 @@ const Header = () => {
             <Nav.Link href="#action6" className='clr'>Contacts</Nav.Link>
 
 </Nav>
-            <Button variant="" className='Btn'>Book Now</Button>
+            <div className='d-flex justify-content-center align-items-center'><Button variant="" className='Btn'>Book Now</Button></div>
           
         </Navbar.Collapse>
       </Container>
